@@ -4,12 +4,14 @@ const mainProducts = document.querySelector("main#main-products");
 function listProducts(products) {
     
     for (product of products) {
-        console.log(product)
+        // console.log(product)
 
         mainProducts.innerHTML += `<div class="product">
                                     <img src="${product.images[0].src}">
                                     <h2>${product.name}</h2>
-                                    <h3>${product.prices.price}</h3>`
+                                    <h3>${product.prices.price}</h3>
+                                    <a href="details.html?id=${product.id}"class="btn">Vis mer</a>
+                                    </div>`
     }
 }
 
