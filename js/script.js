@@ -9,7 +9,7 @@ function listProducts(products) {
         mainProducts.innerHTML += `<div class="product">
                                     <img src="${product.images[0].src}">
                                     <h2>${product.name}</h2>
-                                    <h3>${product.prices.price}</h3>
+                                    <h3>${product.prices.currency_symbol}${product.prices.price}</h3>
                                     <a href="details.html?id=${product.id}"class="btn">Vis mer</a>
                                     </div>`
     }
