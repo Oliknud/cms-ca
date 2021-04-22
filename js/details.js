@@ -1,7 +1,7 @@
 const qStr = document.location.search;
 const par = new URLSearchParams(qStr);
 const idName = par.get("id");
-const url = "http://knudsenweb.no/wp-json/wc/store/products/" + idName;
+const url = "https://knudsenweb.no/wp-json/wc/store/products/" + idName;
 const details = document.querySelector("main#details");
 const title = document.querySelector("title");
 

@@ -1,4 +1,4 @@
-const url = "http://knudsenweb.no/wp-json/wc/store/products/";
+const url = "https://knudsenweb.no/wp-json/wc/store/products/";
 const mainProducts = document.querySelector("main#main-products");
 
 function listProducts(products) {
