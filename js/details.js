@@ -14,6 +14,7 @@ function selectedProduct(item) {
                             <div>
                                 <h1>${item.name}</h1>
                                 <h2>${item.short_description}</h2>
+                                <h3>${item.prices.currency_symbol}${item.prices.price}</h3>
                                 <p>${item.description}</p>
                             </div>
                         </div>`
